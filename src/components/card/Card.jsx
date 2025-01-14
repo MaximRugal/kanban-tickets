@@ -17,7 +17,7 @@ const Card = ({ data }) => {
   return (
     <>
       <div className={`card-wrapper${isExpanded ? '--expanded' : ''}`}>
-        <StatusBar number={data.number} type={data.type} status={data.status} />
+        <StatusBar data={data} />
         <div className='card-wrapper__padding'>
           <Table data={data} expanded={isExpanded} />
           <p className='card-table__divider' />

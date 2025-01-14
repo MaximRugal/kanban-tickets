@@ -96,7 +96,7 @@ export const mockData = [
     request_text:
       'Фронтальный периметр. Датчик Ultrasonic: Датчик Ultrasonic на фронтальном периметре перестал работать. Необходимо провести диагностику и ремонт для восстановления его функциональности и обеспечения безопасности периметра.',
     status: ['В работе'],
-    technological: true,
+    technological: false,
     files: ['https://example.com/files/image1_thumbnail.jpg', 'https://example.com/files/image2_thumbnail.jpg'],
   },
   {
@@ -116,7 +116,7 @@ export const mockData = [
     request_text:
       'Необходимо отремонтировать камеру: Одна из камер видеонаблюдения вышла из строя. Требуется ремонт или замена камеры для возобновления полного обзора и мониторинга территории.',
     status: ['Выполнена'],
-    technological: true,
+    technological: false,
     files: [],
   },
 ];

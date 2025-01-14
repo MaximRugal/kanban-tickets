@@ -38,6 +38,9 @@
     }
 
     &__status{
+        display: flex;
+        align-items: center;
+        gap: 10px;
         margin-left: 8px;
 
         &__data{
@@ -47,7 +50,8 @@
             line-height: 20px;
             color: rgba(34, 34, 34, 1);
         }
-
-
+    }
+    &__gearicon{
+        width: 15px;
     }
 }
