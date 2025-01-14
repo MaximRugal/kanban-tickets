@@ -1,8 +1,41 @@
-# React + Vite
+# Запуск проекта
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Этот проект выполнен мной в качестве тестового задания.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Установка
+
+Чтобы запустить проект, выполните следующие команды:
+
+- **Установка пакетов**:
+
+  `npm i`
+
+- **Запуск проекта**:
+
+  `npm run dev`
+
+## Структура проекта
+
+Файл с mock-данными заявок с бэкенда находится по пути:
+
+`src/api/mockData.js`
+
+Этот файл содержит пример данных, которые используются для разработки и тестирования. Вы можете редактировать его, чтобы добавить или изменить данные, которые будут использоваться в приложении.
+
+- **Сборка проекта для продакшна**:
+
+  `npm run build`
+
+  ## Дополнительная информация
+
+- Убедитесь, что у вас установлена последняя версия Node.js и npm. Вы можете проверить это, выполнив:
+
+  `node -v`
+  `npm -v`
+
+# В проекте использован React + Vite
+
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
