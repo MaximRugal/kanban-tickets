@@ -1,0 +1,29 @@
+.card-wrapper{
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    max-height: 287px;
+    min-height: 287px;
+    width: 328px;
+
+    &__padding{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    &--expanded{
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 1);
+        max-height: fit-content;
+        width: 328px;
+        overflow: visible;
+    }
+}
+
+.card-table{
+
+    &__divider{
+        border: 0.5px solid rgba(219, 219, 219, 1) ;
+        margin: 4px;
+    }
+}

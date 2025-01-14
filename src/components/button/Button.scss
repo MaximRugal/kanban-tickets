@@ -1,0 +1,43 @@
+.card-table__card-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    top: -25px;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--expanded {
+        height: 60px;
+        width: 100%;
+        position: relative;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+    }
+}
+
+.card-table__card-data{
+
+    &__button__text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: rgba(233, 87, 33, 1);
+    }
+    &__button__icon{
+        &--expanded {
+            rotate: (180deg);
+        }
+    }
+}

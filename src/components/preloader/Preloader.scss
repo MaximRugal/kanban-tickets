@@ -1,0 +1,10 @@
+@keyframes smooth-blink {
+    50% { opacity: 0.3; } 
+  }
+.preloader{
+    display: grid;
+    font-size: xx-large;
+    grid-column: center;
+    margin-right: 50px;
+    animation: smooth-blink 1.5s linear infinite; 
+}
